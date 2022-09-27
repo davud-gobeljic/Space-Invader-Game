@@ -31,9 +31,9 @@ BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "background
 def mainD():
     run = True
     FPS = 60
-    # level = 1
-    # lives = 5
-    # main_font = pygame.font.SysFont("comicsans", 50)
+    level = 1
+    lives = 5
+    main_font = pygame.font.SysFont("comicsans", 50)
 
     clock = pygame.time.Clock()
 
